@@ -1,0 +1,7 @@
+{
+    'Page_1': {'Texts' : text_list,
+               'Titles': title_lists, 
+               'Combined': combined_list} ,
+    'Page_2': {},
+    'Page_3': {}
+}

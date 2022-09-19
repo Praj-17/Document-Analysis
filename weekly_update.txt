@@ -1,0 +1,14 @@
+Table Extraction - Prajwal
+- As explained in the previous weeks we have used tabula and camelot python libraries to extract tables from pdf files.
+- but of them were buggy and not able to extract all the tables. or all the entities within the table
+- hence, I read one more article.
+        - https://towardsdatascience.com/5-python-open-source-tools-to-extract-text-and-tabular-data-from-pdf-files-9359cdde6b56
+- It discusses the text and table extraction using slate3k library. This library is basically a wrapper over tabula and camelot. 
+- The output of tabula and camelot can be enhanced using some methods described in the above article and we expect good results out of it.
+
+- I also read another acrticle from analytics vidya
+        - https://www.analyticsvidhya.com/blog/2020/08/how-to-extract-tabular-data-from-pdf-document-using-camelot-in-python/
+- This article is about the extraction of tables using camelot. and has some more tips and tricks to extract the tables.
+- we expect better results of it
+
+- The third and the last option that we might be wanting to do is the OCR, but again we need to figure out the in which we find the exact number of page within the pdf where the table is located at.

@@ -1,0 +1,15 @@
+[
+{
+ "frame_id":1, 
+ "filename":"/mydrive/images/boss2.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"TEXT", "relative_coordinates":{"center_x":0.779893, "center_y":0.282800, "width":0.425992, "height":0.097567}, "confidence":0.998853}, 
+  {"class_id":0, "name":"TEXT", "relative_coordinates":{"center_x":0.107875, "center_y":0.358026, "width":0.116134, "height":0.059333}, "confidence":0.998240}, 
+  {"class_id":0, "name":"TEXT", "relative_coordinates":{"center_x":0.680842, "center_y":0.414781, "width":0.186957, "height":0.056492}, "confidence":0.997928}, 
+  {"class_id":0, "name":"TEXT", "relative_coordinates":{"center_x":0.354154, "center_y":0.930738, "width":0.698904, "height":0.070104}, "confidence":0.981644}, 
+  {"class_id":0, "name":"TEXT", "relative_coordinates":{"center_x":0.683273, "center_y":0.601490, "width":0.177308, "height":0.063297}, "confidence":0.978149}, 
+  {"class_id":0, "name":"TEXT", "relative_coordinates":{"center_x":0.311822, "center_y":0.713034, "width":0.200608, "height":0.059416}, "confidence":0.939614}, 
+  {"class_id":0, "name":"TEXT", "relative_coordinates":{"center_x":0.341498, "center_y":0.777791, "width":0.388440, "height":0.050144}, "confidence":0.934430}
+ ] 
+}
+]
