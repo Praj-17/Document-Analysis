@@ -7,7 +7,7 @@ with open("SampleRules.xml", "r") as f:
 soup = BeautifulSoup(data, 'xml')
 Rules = soup.find_all('COMPLETERULE')
 # Parametes = soup.find_all('Parameter')
-print(Rules[0])
+print(len(Rules))
 for id, rule in enumerate(Rules):
     with open(f'Rules/Rule-{id}.xml', 'w+') as f:
         f.write(str(Rules[id]))

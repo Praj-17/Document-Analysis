@@ -1,1 +1,0 @@
-<COMPLETERULE><Rule LifeStatus="1" Module="dfmturnrulesvalidator" Name="Symmetrical Axial Slots" RuleCategory="Turning" RuleModule="Turn Rules" RuleModuleFileName="dfmturnrulesu.dll" SelectedDatabase="" Severity="2" Status="0" Summary="Axial slots on turned parts should be symmetrical about the turn axis."><DataBases/></Rule> </COMPLETERULE>

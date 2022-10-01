@@ -1,1048 +1,1040 @@
-<DFMExpress
-  Name=""
-  Createdby=""
-  CreatedOn=""
-  Unit="0"
-  AngularUnit="0"
-  Version="v3.3"
-  ><COMPLETERULE><Rule
-    Name="Minimum Internal Corner Radius"
-    Status="0"
-    LifeStatus="1"
-    Summary="Minimum corner radius on turned profile should be &gt;= 0.5 mm."
-    Module="dfmturnrulesvalidator"
-    RuleModule="Turn Rules"
-    Severity="2"
-    RuleCategory="Turning"
-    RuleModuleFileName="dfmturnrulesu.dll"
-    SelectedDatabase=""
-  >
-    <DataBases />
-    <Parameter Name="Turn Corner Radius" Type="1038" Status="1">
-      <Operator>7</Operator>
-      <ParameterType>1</ParameterType>
-      <Value>0.500000</Value><Remarks></Remarks></Parameter>
-      </Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Blind Hole Relief"
-    Status="0"
-    LifeStatus="1"
-    Summary="Blind bored holes should be defined with tool relief at the end of the hole. The amount of relief should be &gt;= 0.03 times the Diameter of the Bored hole."
-    Module="dfmturnrulesvalidator"
-    RuleModule="Turn Rules"
-    Severity="1"
-    RuleCategory="Turning"
-    RuleModuleFileName="dfmturnrulesu.dll"
-    SelectedDatabase=""
-    ><DataBases /><Parameter
-      Name="Bore Relief(% of Bore Diameter)"
-      Type="1041"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>3.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="OD Profile Relief"
-    Status="0"
-    LifeStatus="1"
-    Summary="Acute angle made by OD Profile with turn axis should be &lt;= 58.0 deg."
-    Module="dfmturnrulesvalidator"
-    RuleModule="Turn Rules"
-    Severity="2"
-    RuleCategory="Turning"
-    RuleModuleFileName="dfmturnrulesu.dll"
-    SelectedDatabase=""
-    ><DataBases /><Parameter Name="SingleDatabase" Type="1057" Status="1"
-      ><Operator>8</Operator><ParameterType>2</ParameterType
-      ><Value>58.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Long - Slender Turned Parts"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the length of turned part to its minimum diameter should be &lt;= 8.0."
-    Module="dfmturnrulesvalidator"
-    RuleModule="Turn Rules"
-    Severity="4"
-    RuleCategory="Turning"
-    RuleModuleFileName="dfmturnrulesu.dll"
-    SelectedDatabase=""
-    ><DataBases /><Parameter
-      Name="Aspect Ratio (Diameter/Length)"
-      Type="1001"
-      Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>8.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Symmetrical Axial Slots"
-    Status="0"
-    LifeStatus="1"
-    Summary="Axial slots on turned parts should be symmetrical about the turn axis."
-    Module="dfmturnrulesvalidator"
-    RuleModule="Turn Rules"
-    Severity="2"
-    RuleCategory="Turning"
-    RuleModuleFileName="dfmturnrulesu.dll"
-    SelectedDatabase=""
-    ><DataBases /></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Keyways Should Be Radiused At Their Ends"
-    Status="0"
-    LifeStatus="1"
-    Summary="Radiused Keyway:
+<DFMExpress Name="" Createdby="" CreatedOn="" Unit="0" AngularUnit="0" Version="v3.3">
+  <COMPLETERULE>
+    <Rule Name="Minimum Internal Corner Radius" Status="0" LifeStatus="1"
+      Summary="Minimum corner radius on turned profile should be &gt;= 0.5 mm." Module="dfmturnrulesvalidator"
+      RuleModule="Turn Rules" Severity="2" RuleCategory="Turning" RuleModuleFileName="dfmturnrulesu.dll"
+      SelectedDatabase="">
+      <DataBases />
+      <Parameter Name="Turn Corner Radius" Type="1038" Status="1">
+        <Operator>7</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>0.500000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Blind Hole Relief" Status="0" LifeStatus="1"
+      Summary="Blind bored holes should be defined with tool relief at the end of the hole. The amount of relief should be &gt;= 0.03 times the Diameter of the Bored hole."
+      Module="dfmturnrulesvalidator" RuleModule="Turn Rules" Severity="1" RuleCategory="Turning"
+      RuleModuleFileName="dfmturnrulesu.dll" SelectedDatabase="">
+      <DataBases />
+      <Parameter Name="Bore Relief(% of Bore Diameter)" Type="1041" Status="1">
+        <Operator>7</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>3.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="OD Profile Relief" Status="0" LifeStatus="1"
+      Summary="Acute angle made by OD Profile with turn axis should be &lt;= 58.0 deg." Module="dfmturnrulesvalidator"
+      RuleModule="Turn Rules" Severity="2" RuleCategory="Turning" RuleModuleFileName="dfmturnrulesu.dll"
+      SelectedDatabase="">
+      <DataBases />
+      <Parameter Name="SingleDatabase" Type="1057" Status="1">
+        <Operator>8</Operator>
+        <ParameterType>2</ParameterType>
+        <Value>58.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Long - Slender Turned Parts" Status="0" LifeStatus="1"
+      Summary="The ratio of the length of turned part to its minimum diameter should be &lt;= 8.0."
+      Module="dfmturnrulesvalidator" RuleModule="Turn Rules" Severity="4" RuleCategory="Turning"
+      RuleModuleFileName="dfmturnrulesu.dll" SelectedDatabase="">
+      <DataBases />
+      <Parameter Name="Aspect Ratio (Diameter/Length)" Type="1001" Status="1">
+        <Operator>8</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>8.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Symmetrical Axial Slots" Status="0" LifeStatus="1"
+      Summary="Axial slots on turned parts should be symmetrical about the turn axis." Module="dfmturnrulesvalidator"
+      RuleModule="Turn Rules" Severity="2" RuleCategory="Turning" RuleModuleFileName="dfmturnrulesu.dll"
+      SelectedDatabase="">
+      <DataBases />
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Keyways Should Be Radiused At Their Ends" Status="0" LifeStatus="1" Summary="Radiused Keyway:
 Actual Value = End Radius For Keyway Not Present
-Recommended Value = Use End Radius For Keyway"
-    Module="dfmturnrulesvalidator"
-    RuleModule="Turn Rules"
-    Severity="4"
-    RuleCategory="Turning"
-    RuleModuleFileName="dfmturnrulesu.dll"
-    SelectedDatabase=""
-    ><DataBases /></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Faces Requiring Support"
-    Status="0"
-    LifeStatus="1"
-    Summary="Faces requiring support need to be minimal for ease of manufacturing and to reduce manufacturing time and associated secondary operations like removal of support, cleaning and sanding of the part at support joints."
-    Module="dfmrprulesvalidator"
-    RuleModule="Additive Manufacturing Rules"
-    RuleModuleFileName="dfmrprulesu.dll"
-    Severity="1"
-    RuleCategory="Additive Manufacturing"
-    ><Parameter Name="" Type="10142" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Remarks></Remarks></Parameter
-    ><Parameter Name="" Type="10141" Status="1"
-      ><Operator>3</Operator><ParameterType>24</ParameterType
-      ><Remarks></Remarks></Parameter
-    ><Parameter Name="" Type="10140" Status="0"
-      ><Operator>5</Operator><ParameterType>1</ParameterType
-      ><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Fillet Radius"
-    Status="0"
-    LifeStatus="1"
-    Summary="Fillet radius should be between 0.1 to 0.2 mm."
-    Module="dfmcastingrulesvalidator"
-    RuleModule="Casting Rules"
-    RuleModuleFileName="dfmcastingrulesu.dll"
-    Severity="2"
-    RuleCategory="Casting"
-    ><Parameter Name="Minimum Radius" Type="2142" Status="1"
-      ><Operator>5</Operator><ParameterType>1</ParameterType
-      ><Value>0.100000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Maximum Radius" Type="2144" Status="1"
-      ><Operator>6</Operator><ParameterType>1</ParameterType
-      ><Value>0.200000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Uniform Wall Thickness"
-    Status="0"
-    LifeStatus="1"
-    Summary="Minimum wall thickness should be &gt;= 3.0 mm. Maximum wall thickness should be &lt;5.0 mm. "
-    Module="dfmcastingrulesvalidator"
-    RuleModule="Casting Rules"
-    RuleModuleFileName="dfmcastingrulesu.dll"
-    Severity="2"
-    RuleCategory="Casting"
-    ><Parameter Name="Minimum Wall Thickness" Type="2045" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>3.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Maximum Wall Thickness" Type="2046" Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>5.000000</Value><Remarks></Remarks></Parameter
-    ><Constraint Type="Material" Value="Aluminium" Status="0"
-      ><Parameter Name="Minimum Wall Thickness" Type="2045" Status="0"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>1.016000</Value><Remarks></Remarks></Parameter
-      ><Parameter Name="Maximum Wall Thickness" Type="2046" Status="0"
-        ><Operator>8</Operator><ParameterType>1</ParameterType
-        ><Value>7.620000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Zinc/ZA" Status="0"
-      ><Parameter Name="Minimum Wall Thickness" Type="2045" Status="0"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>0.762000</Value><Remarks></Remarks></Parameter
-      ><Parameter Name="Maximum Wall Thickness" Type="2046" Status="0"
-        ><Operator>8</Operator><ParameterType>1</ParameterType
-        ><Value>9.652000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Magnesium" Status="0"
-      ><Parameter Name="Minimum Wall Thickness" Type="2045" Status="0"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>1.016000</Value><Remarks></Remarks></Parameter
-      ><Parameter Name="Maximum Wall Thickness" Type="2046" Status="0"
-        ><Operator>8</Operator><ParameterType>1</ParameterType
-        ><Value>8.128000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Brass" Status="0"
-      ><Parameter Name="Minimum Wall Thickness" Type="2045" Status="0"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>1.397000</Value><Remarks></Remarks></Parameter
-      ><Parameter Name="Maximum Wall Thickness" Type="2046" Status="0"
-        ><Operator>8</Operator><ParameterType>1</ParameterType
-        ><Value>9.398000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Steel" Status="0"
-      ><Parameter Name="Minimum Wall Thickness" Type="2045" Status="0"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>1.524000</Value><Remarks></Remarks></Parameter
-      ><Parameter Name="Maximum Wall Thickness" Type="2046" Status="0"
-        ><Operator>8</Operator><ParameterType>1</ParameterType
-        ><Value>9.906000</Value
-        ><Remarks></Remarks></Parameter></Constraint></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Mold Wall Thickness"
-    Status="0"
-    LifeStatus="1"
-    Summary="Ratio of mold wall thickness to nominal wall thickness of part should be &gt;= 2.0.  "
-    Module="dfmcastingrulesvalidator"
-    RuleModule="Casting Rules"
-    RuleModuleFileName="dfmcastingrulesu.dll"
-    Severity="2"
-    RuleCategory="Casting"
-    ><Parameter
-      Name="Mold Wall Thickness to Nominal Wall Thickness Ratio"
-      Type="2094"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Mold Wall Thickness" Type="2095" Status="0"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>1.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Wall Thickness Variation"
-    Status="0"
-    LifeStatus="1"
-    Summary="Wall thickness variation should be within ± 25.0 % of nominal wall."
-    Module="dfmcastingrulesvalidator"
-    RuleModule="Casting Rules"
-    RuleModuleFileName="dfmcastingrulesu.dll"
-    Severity="1"
-    RuleCategory="Casting"
-    ><Parameter Name="WT Variation" Type="2136" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>25.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Draft Angle"
-    Status="0"
-    LifeStatus="1"
-    Summary="Draft angle for core should be &gt;= 0.5 deg and draft angle for cavity should be &gt;= 5.0 deg."
-    Module="dfmcastingrulesvalidator"
-    RuleModule="Casting Rules"
-    RuleModuleFileName="dfmcastingrulesu.dll"
-    Severity="2"
-    RuleCategory="Casting"
-    ><Parameter Name="Minimum Draft Angle For Core" Type="2120" Status="1"
-      ><Operator>7</Operator><ParameterType>2</ParameterType
-      ><Value>0.500000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Minimum Draft Angle For Cavity" Type="2121" Status="1"
-      ><Operator>7</Operator><ParameterType>2</ParameterType
-      ><Value>5.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Undercut Detection"
-    Status="0"
-    LifeStatus="1"
-    Summary="Undercuts should be avoided for ease of manufacturing."
-    Module="dfmcastingrulesvalidator"
-    RuleModule="Casting Rules"
-    RuleModuleFileName="dfmcastingrulesu.dll"
-    Severity="3"
-    RuleCategory="Casting" /><COMPLETERULE><Rule
-    Name="Minimum Radius at Base of Boss"
-    Status="0"
-    LifeStatus="1"
-    Summary="Ratio of radius at the base of boss to nominal wall thickness should be &gt;= 0.25. "
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="2"
-    RuleCategory="Injection Molding"
-    ><Parameter
-      Name="Boss Base Radius to Nominal Wall Thickness"
-      Type="2054"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>0.250000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Minimum Radius" Type="2055" Status="0"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>0.400000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Radius at Tip of Boss"
-    Status="0"
-    LifeStatus="1"
-    Summary="Minimum radius at the tip of boss should be &gt;= 0.2 mm."
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="2"
-    RuleCategory="Injection Molding"
-    ><Parameter Name="Minimum Radius" Type="2066" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>0.200000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Rib Reinforcement Check"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the rib height to nominal wall thickness should be &lt;= 3.0.The ratio of the rib width to nominal wall thickness should be &lt;= 2.0."
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="3"
-    RuleCategory="Injection Molding"
-    ><Parameter
-      Name="Rib Cross Sectional Area to Nominal Wall Thickness"
-      Type="2077"
-      Status="0"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>5.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Rib Height To Nominal Wall Thickness"
-      Type="2102"
-      Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>3.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Rib Width To Nominal Wall Thickness"
-      Type="2103"
-      Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Maximum Cutout Area"
-    Status="0"
-    LifeStatus="1"
-    Summary="Ratio of cutout area to nominal wall thickness should be &lt;= 10.0 mm."
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="3"
-    RuleCategory="Injection Molding"
-    ><Parameter
-      Name="Maximum Cutout Area to Nominal Wall Thickness"
-      Type="2081"
-      Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>10.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Recommended Rib Parameters"
-    Status="0"
-    LifeStatus="1"
-    Summary="Ratio of rib thickness to nominal wall thickness should be &lt;= 0.4. Ratio of rib height to nominal wall thickness should be &lt;= 2.5."
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="2"
-    RuleCategory="Injection Molding"
-    ><Parameter
-      Name="Rib Thickness to Nominal Wall Thickness"
-      Type="2083"
-      Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>0.400000</Value><Value>0.600000</Value><Value>1.000000</Value
-      ><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Rib Height to Nominal Wall Thickness"
-      Type="2084"
-      Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>2.500000</Value><Value>3.000000</Value
-      ><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Rib Width to Nominal Wall Thickness"
-      Type="2085"
-      Status="0"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>0.000000</Value><Value>0.000000</Value
-      ><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Draft Angle"
-    Status="0"
-    LifeStatus="1"
-    Summary="Draft angle for core should be &gt;= 0.5 deg and draft angle for cavity should be &gt;= 5.0 deg."
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="2"
-    RuleCategory="Injection Molding"
-    ><Parameter Name="Minimum Draft Angle For Core" Type="2120" Status="1"
-      ><Operator>7</Operator><ParameterType>2</ParameterType
-      ><Value>0.500000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Minimum Draft Angle For Cavity" Type="2121" Status="1"
-      ><Operator>7</Operator><ParameterType>2</ParameterType
-      ><Value>5.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Undercut Detection"
-    Status="0"
-    LifeStatus="1"
-    Summary="Undercuts should be avoided for ease of manufacturing."
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="3"
-    RuleCategory="Injection Molding" /><COMPLETERULE><Rule
-    Name="Uniform Wall Thickness"
-    Status="0"
-    LifeStatus="1"
-    Summary="Minimum wall thickness should be &gt;= 2.0 mm. Maximum wall thickness should be &lt;3.0 mm. "
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="2"
-    RuleCategory="Injection Molding"
-    ><Parameter Name="Minimum Wall Thickness" Type="2045" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Maximum Wall Thickness" Type="2046" Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>3.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Mold Wall Thickness"
-    Status="0"
-    LifeStatus="1"
-    Summary="Ratio of mold wall thickness to nominal wall thickness of part should be &gt;= 2.0.  "
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="2"
-    RuleCategory="Injection Molding"
-    ><Parameter
-      Name="Mold Wall Thickness to Nominal Wall Thickness Ratio"
-      Type="2094"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Mold Wall Thickness" Type="2095" Status="0"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>1.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Wall Thickness Variation"
-    Status="0"
-    LifeStatus="1"
-    Summary="Wall thickness variation should be within ± 25.0 % of nominal wall."
-    Module="dfmimrulesvalidator"
-    RuleModule="Injection Molding Rules"
-    RuleModuleFileName="dfmimrulesu.dll"
-    Severity="1"
-    RuleCategory="Injection Molding"
-    ><Parameter Name="WT Variation" Type="2136" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>25.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Hole Diameter"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the hole diameter to the sheet thickness should be &gt;= 1.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter Name="Hole Diameter  to Thickness ratio" Type="159" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>1.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Countersink Hole Distance To Part Edge"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between the edge of a countersink hole and the edge of the part, to the sheet thickness, should be &gt;= 4.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between countersink hole and edge to Thickness ratio"
-      Type="139"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>4.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Countersink Hole Spacing"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between the edges of  two countersink holes, to the sheet thickness, should be &gt;= 8.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between two countersink holes to Thickness ratio"
-      Type="119"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>8.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Counterbore Hole Distance To Part Edge"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between the edge of a counterbore hole and the edge of the part, to the sheet thickness, should be &gt;= 4.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between  countersink hole and edge  to Thickness ratio"
-      Type="129"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>4.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Counterbore Hole Spacing"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between the edges of  two counterbore holes, to the sheet thickness, should be &gt;= 8.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between two counterbore holes to Thickness ratio"
-      Type="109"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>8.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Hole Distance To Bends"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between the edge of a hole and a bend, to the sheet thickness, should be &gt;= 2.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter Name="Distance To Thickness Ratio" Type="21024" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Distance To Thickness Ratio" Type="21024" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Tear Drop Hem"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the tear drop hem radius to the sheet metal thickness should be &gt;= 0.5, the ratio of the return flange height to the sheet metal thickness should be &gt;= 4.0 , and the ratio of the hem opening to the sheet metal thickness should be &gt;= 0.25."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter Name="Tear Drop Hem Diameter" Type="3019" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>0.500000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Tear Drop Flange Height" Type="3020" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>4.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Tear Drop Hem Opening" Type="3021" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>0.250000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Multiple Bends In Same Direction"
-    Status="0"
-    LifeStatus="1"
-    Summary="Multiple bends on same plane should occur in the same direction."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal" /><COMPLETERULE><Rule
-    Name="Open Hem"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the open hem radius to the sheet metal thickness should be &gt;= 0.5 and the ratio of the return flange height to the sheet metal thickness should be &gt;= 4.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter Name="Open Hem Diameter" Type="125" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>0.500000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Open Hem Flange Height" Type="127" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>4.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Counterbore Hole To Bend Distance"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between the edge of a counterbore hole and a bend, to the sheet thickness, should be &gt;= 4.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between Counterbore hole and a bend to Thickness ratio"
-      Type="146"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>4.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Countersink Hole To Bend Distance"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between the edge of a countersink hole and a bend, to the sheet thickness, should be &gt;= 4.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between Countersink hole and a bend to Thickness ratio"
-      Type="151"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>4.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Rolled Hem To Hole Edge Distance"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between the rolled hem and the edge of a hole, to the sheet thickness, should be &gt;= 1.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between a rolled hem and a hole to Thickness ratio"
-      Type="157"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>0</ParameterType
-      ><Value>1.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Rolled Hem"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the rolled hem radius to material thickness, should be &gt;= 2.0, and the ratio of opening to material thickness, should be &gt;= 1.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="1"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Rolled Hem Radius To Thickness Ratio"
-      Type="161"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Rolled Hem Opening To Thickness Ratio"
-      Type="162"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>1.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Bend Radius"
-    Status="0"
-    LifeStatus="1"
-    Summary="Minimum bend radius should be as per recommended value based on material."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="4"
-    RuleCategory="Sheet Metal"
-    ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter
-    ><Constraint Type="Material" Value="Aluminium Alloys" Status="1"
-      ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>6.000000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Beryllium Copper" Status="1"
-      ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>4.000000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Low-Leaded Brass" Status="1"
-      ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>2.000000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Magnesium" Status="1"
-      ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>13.000000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Austentic Stainless" Status="1"
-      ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>6.000000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Low-Carbon,Low-Alloy" Status="1"
-      ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>4.000000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Titanium" Status="1"
-      ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>3.000000</Value><Remarks></Remarks></Parameter></Constraint
-    ><Constraint Type="Material" Value="Titanium Alloys" Status="1"
-      ><Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1"
-        ><Operator>7</Operator><ParameterType>1</ParameterType
-        ><Value>4.000000</Value
-        ><Remarks></Remarks></Parameter></Constraint></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Distance Between Cutouts"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between cutouts in a sheet metal part to the thickness should be &gt;= 2.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="2"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between cutouts to Thickness ratio"
-      Type="186"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Width Of a Slot"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of width of a slot to the sheet thickness should be &gt;= 2.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="2"
-    RuleCategory="Sheet Metal"
-    ><Parameter Name="Slot Width to Sheet Thickness Ratio" Type="207" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Slot Length to Slot Width Ratio" Type="208" Status="0"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>15.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Cutout Distance To Part Edge"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance from a cutout to edge of part to the sheet thickness should be &gt;= 2.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="2"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between cutout and part edge to Thickness ratio"
-      Type="198"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Distance between cutout and part edge"
-      Type="167"
-      Status="0"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Cutout To Bend Distance"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance between cutout to bend in a sheet metal part should be &gt;= 2.0."
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="2"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="Distance between cutout and bend to Thickness ratio"
-      Type="203"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>2.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Distance From Edge Of Part To a Parallel Slot"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance from an edge of a part to a parallel slot and the slot length should be &gt;= 0.2"
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="2"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="The Ratio Of Edge To Parallel Slot Distance and Slot Length"
-      Type="189"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>0.200000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Distance From Bend To a Parallel Slot"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the minimum distance from a bend to a parallel slot and the sheet thickness should be &gt;= 4.0"
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="2"
-    RuleCategory="Sheet Metal"
-    ><Parameter
-      Name="The Ratio Of Bend To Parallel Slot Distance and Sheet Thickness"
-      Type="212"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>4.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Knife Edge"
-    Status="0"
-    LifeStatus="1"
-    Summary="Sheet metal flanges should not have knife edge"
-    Module="dfmsmrulesvalidator"
-    RuleModule="Sheet metal rules"
-    RuleModuleFileName="dfmsmrulesu.dll"
-    Severity="2"
-    RuleCategory="Sheet Metal" /><COMPLETERULE><Rule
-    Name="Hole Alignment"
-    Status="0"
-    LifeStatus="1"
-    Summary="Check for alignment of holes, Blocked hole and Unused holes. Gap between the parts should be &lt;= 0.5 mm."
-    Module="dfmassemblyrulesvalidator"
-    RuleModule="Assembly Rules"
-    RuleModuleFileName="dfmassemblyrulesu.dll"
-    Severity="1"
-    RuleCategory="Assembly"
-    SelectedDatabase="dfmsqlitedatabaseu"
-    DBCategory="DrillSize"
-    ><Parameter Name="Misaligned Holes" Type="7800" Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>0.500000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Blocked Holes" Type="7092" Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Remarks></Remarks></Parameter
-    ><Parameter Name="Unused Holes" Type="7094" Status="0"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Minimum Clearance Between Components"
-    Status="0"
-    LifeStatus="1"
-    Summary="Minimum clearance between components should be &gt;= 0.1 mm. "
-    Module="dfmassemblyrulesvalidator"
-    RuleModule="Assembly Rules"
-    RuleModuleFileName="dfmassemblyrulesu.dll"
-    Severity="1"
-    RuleCategory="Assembly"
-    ><Parameter Name="Default Clearance" Type="2062" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>1.000000</Value><Value>0.100000</Value
-      ><Remarks></Remarks></Parameter
-    ><Parameter Name="Pairs clearance check" Type="2049" Status="1"
-      ><Operator>3</Operator><ParameterType>1</ParameterType
-      ><Value>0.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Pairs Clearance" Type="2048" Status="1"
-      ><Operator>3</Operator><ParameterType>24</ParameterType
-      ><Value
-        Attribute1=""
-        Attribute2=""
-        Attribute3=""
-        Attribute4="" /><Remarks></Remarks></Parameter
-    ><Parameter Name="Body-Body Clearance" Type="2063" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>1.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter Name="Minimum Clearance Ignore Mating" Type="6072" Status="1"
-      ><Operator>3</Operator><ParameterType>22</ParameterType><Value>0</Value
-      ><Remarks></Remarks></Parameter
-    ><Parameter Name="Minimum Clearance Quilt Check" Type="6073" Status="1"
-      ><Operator>3</Operator><ParameterType>22</ParameterType><Value>1</Value
-      ><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Interference Detection"
-    Status="0"
-    LifeStatus="1"
-    Summary="To achieve desired functionality, interference must be avoided in assembly."
-    Module="dfmassemblyrulesvalidator"
-    RuleModule="Assembly Rules"
-    RuleModuleFileName="dfmassemblyrulesu.dll"
-    Severity="1"
-    RuleCategory="Assembly"
-    ><Parameter Name="Interference detection check" Type="6067" Status="1"
-      ><Operator>3</Operator><ParameterType>22</ParameterType><Value>1</Value
-      ><Remarks></Remarks></Parameter
-    ><Parameter Name="Interference detection quilt" Type="6069" Status="1"
-      ><Operator>3</Operator><ParameterType>22</ParameterType><Value>1</Value
-      ><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Check Each Part Under 'Component1' With All Parts Under 'Component2'"
-      Type="8073"
-      Status="1"
-      ><Operator>3</Operator><ParameterType>22</ParameterType
-      ><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Interference detection cosmetic thread"
-      Type="6070"
-      Status="1"
-      ><Operator>3</Operator><ParameterType>22</ParameterType><Value>0</Value
-      ><Remarks></Remarks></Parameter
-    ><Parameter Name="Interference Detection" Type="6068" Status="1"
-      ><Operator>3</Operator><ParameterType>24</ParameterType
-      ><Value
-        Attribute1=""
-        Attribute2=""
-        Attribute3=""
-        Attribute4="" /><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Deep Holes"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the depth of a hole to its diameter should be &lt;= 8.0."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="1"
-    RuleCategory="Drilling"
-    SelectedDatabase="dfmsqlitedatabaseu"
-    DBCategory="DrillSize"
-    ><Parameter Name="Hole Depth Dia Ratio" Type="10001" Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>8.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Entry / Exit Surface For Hole"
-    Status="0"
-    LifeStatus="1"
-    Summary="Holes should enter and exit surfaces that are perpendicular to the centerline of the hole."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="1"
-    RuleCategory="Drilling" /><COMPLETERULE><Rule
-    Name="Flat Bottom Holes"
-    Status="0"
-    LifeStatus="1"
-    Summary="It is recommended to use conical bottom hole, when hole is manufactured with drilling. It is recommended to use flat bottom hole, when hole is manufactured with milling."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="3"
-    RuleCategory="Drilling"
-    SelectedDatabase="dfmsqlitedatabaseu"
-    DBCategory="DrillSize" /><COMPLETERULE><Rule
-    Name="Deep Radiused Corners"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of the depth of an internal corner of milled region to its radius should be &lt;= 16.0."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="2"
-    RuleCategory="Milling"
-    ><Parameter Name="Mill Tool Length Diameter Ratio" Type="10003" Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>16.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Sharp Internal Corners"
-    Status="0"
-    LifeStatus="1"
-    Summary="Milled pockets/slots should not have sharp internal corners."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="3"
-    RuleCategory="Milling" /><COMPLETERULE><Rule
-    Name="Fillets On Top Edges"
-    Status="0"
-    LifeStatus="1"
-    Summary="Edges on the tops of pockets, bosses, and slots should be chamfered and not filleted."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="4"
-    RuleCategory="Milling"
-    ><Parameter Name="" Type="10153" Status="1"
-      ><Operator>6</Operator><ParameterType>1</ParameterType
-      ><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Pockets With Bottom Chamfers"
-    Status="0"
-    LifeStatus="1"
-    Summary="Milled pockets and bosses should not have a chamfer between the side walls and its base."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="3"
-    RuleCategory="Milling" /><COMPLETERULE><Rule
-    Name="Non Uniform Draft Features"
-    Status="0"
-    LifeStatus="1"
-    Summary="All walls of tapered pockets, bosses and slots should be defined with a constant taper angle."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="3"
-    RuleCategory="Milling" /><COMPLETERULE><Rule
-    Name="Deep - Narrow Slots"
-    Status="0"
-    LifeStatus="1"
-    Summary="The ratio of cross section area to the depth of a milled pocket should be &gt;= 0.8 mm."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="4"
-    RuleCategory="Milling"
-    ><Parameter Name="Deep - Narrow Slots" Type="1025" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>0.800000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Partial Holes"
-    Status="0"
-    LifeStatus="1"
-    Summary="When a hole intersects with the side of a feature, &gt;= 75.0 percent of the area of the hole should be within material."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="2"
-    RuleCategory="Drilling"
-    ><Parameter Name="Partial Hole Material Area" Type="10002" Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>75.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-  ><COMPLETERULE><Rule
-    Name="Standard Hole Sizes"
-    Status="0"
-    LifeStatus="1"
-    Summary="Holes should conform to standard hole diameters."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="1"
-    RuleCategory="Drilling"
-    SelectedDatabase="dfmsqlitedatabaseu"
-    DBCategory="DrillSize"
-    StdHoleFilterType="Metric Unit"
-    StdHoleUnit="DocumentUnit"
-    StdHoleTolerance=""
-    StdHoleToleranceUnit="" /><COMPLETERULE><Rule
-    Name="Holes Intersecting Cavities"
-    Status="0"
-    LifeStatus="1"
-    Summary="Holes should not intersect a cavity. If an intersection is unavoidable, at a minimum, the centerline of the hole should be outside the cavity."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="1"
-    RuleCategory="Drilling"
-    SelectedDatabase="dfmsqlitedatabaseu"
-    DBCategory="DrillSize" /><COMPLETERULE><Rule
-    Name="Tool Accessibility"
-    Status="0"
-    LifeStatus="1"
-    Summary="Features should be accessible to the cutting tool in the preferred machining orientation."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="1"
-    RuleCategory="Milling" /><COMPLETERULE><Rule
-    Name="Narrow Regions In Pockets"
-    Status="0"
-    LifeStatus="1"
-    Summary="To minimize the use of small tools, distance between features / model faces of milled regions should be &gt;= 3.0 mm and the ratio of depth of milling region to  its width should be &lt;= 10.0."
-    Module="dfmmillrulesvalidator"
-    RuleModule="Mill Rules"
-    RuleModuleFileName="dfmmillrulesu.dll"
-    Severity="2"
-    RuleCategory="Milling"
-    ><Parameter
-      Name="Select the drill diameter to delete"
-      Type="1066"
-      Status="1"
-      ><Operator>7</Operator><ParameterType>1</ParameterType
-      ><Value>3.000000</Value><Remarks></Remarks></Parameter
-    ><Parameter
-      Name="Failed to delete drill diameter from Database"
-      Type="1067"
-      Status="1"
-      ><Operator>8</Operator><ParameterType>1</ParameterType
-      ><Value>10.000000</Value><Remarks></Remarks></Parameter></Rule> </COMPLETERULE
-></DFMExpress>
+Recommended Value = Use End Radius For Keyway" Module="dfmturnrulesvalidator" RuleModule="Turn Rules" Severity="4"
+      RuleCategory="Turning" RuleModuleFileName="dfmturnrulesu.dll" SelectedDatabase="">
+      <DataBases />
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Faces Requiring Support" Status="0" LifeStatus="1"
+      Summary="Faces requiring support need to be minimal for ease of manufacturing and to reduce manufacturing time and associated secondary operations like removal of support, cleaning and sanding of the part at support joints."
+      Module="dfmrprulesvalidator" RuleModule="Additive Manufacturing Rules" RuleModuleFileName="dfmrprulesu.dll"
+      Severity="1" RuleCategory="Additive Manufacturing">
+      <Parameter Name="" Type="10142" Status="1">
+        <Operator>7</Operator>
+        <ParameterType>1</ParameterType>
+        <Remarks></Remarks>
+      </Parameter>
+      <Parameter Name="" Type="10141" Status="1">
+        <Operator>3</Operator>
+        <ParameterType>24</ParameterType>
+        <Remarks></Remarks>
+      </Parameter>
+      <Parameter Name="" Type="10140" Status="0">
+        <Operator>5</Operator>
+        <ParameterType>1</ParameterType>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Fillet Radius" Status="0" LifeStatus="1" Summary="Fillet radius should be between 0.1 to 0.2 mm."
+      Module="dfmcastingrulesvalidator" RuleModule="Casting Rules" RuleModuleFileName="dfmcastingrulesu.dll"
+      Severity="2" RuleCategory="Casting">
+      <Parameter Name="Minimum Radius" Type="2142" Status="1">
+        <Operator>5</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>0.100000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+      <Parameter Name="Maximum Radius" Type="2144" Status="1">
+        <Operator>6</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>0.200000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Uniform Wall Thickness" Status="0" LifeStatus="1"
+      Summary="Minimum wall thickness should be &gt;= 3.0 mm. Maximum wall thickness should be &lt;5.0 mm. "
+      Module="dfmcastingrulesvalidator" RuleModule="Casting Rules" RuleModuleFileName="dfmcastingrulesu.dll"
+      Severity="2" RuleCategory="Casting">
+      <Parameter Name="Minimum Wall Thickness" Type="2045" Status="1">
+        <Operator>7</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>3.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+      <Parameter Name="Maximum Wall Thickness" Type="2046" Status="1">
+        <Operator>8</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>5.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+      <Constraint Type="Material" Value="Aluminium" Status="0">
+        <Parameter Name="Minimum Wall Thickness" Type="2045" Status="0">
+          <Operator>7</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>1.016000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Maximum Wall Thickness" Type="2046" Status="0">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>7.620000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Constraint>
+      <Constraint Type="Material" Value="Zinc/ZA" Status="0">
+        <Parameter Name="Minimum Wall Thickness" Type="2045" Status="0">
+          <Operator>7</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>0.762000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Maximum Wall Thickness" Type="2046" Status="0">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>9.652000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Constraint>
+      <Constraint Type="Material" Value="Magnesium" Status="0">
+        <Parameter Name="Minimum Wall Thickness" Type="2045" Status="0">
+          <Operator>7</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>1.016000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Maximum Wall Thickness" Type="2046" Status="0">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>8.128000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Constraint>
+      <Constraint Type="Material" Value="Brass" Status="0">
+        <Parameter Name="Minimum Wall Thickness" Type="2045" Status="0">
+          <Operator>7</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>1.397000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Maximum Wall Thickness" Type="2046" Status="0">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>9.398000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Constraint>
+      <Constraint Type="Material" Value="Steel" Status="0">
+        <Parameter Name="Minimum Wall Thickness" Type="2045" Status="0">
+          <Operator>7</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>1.524000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Maximum Wall Thickness" Type="2046" Status="0">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>9.906000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Constraint>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Mold Wall Thickness" Status="0" LifeStatus="1"
+      Summary="Ratio of mold wall thickness to nominal wall thickness of part should be &gt;= 2.0.  "
+      Module="dfmcastingrulesvalidator" RuleModule="Casting Rules" RuleModuleFileName="dfmcastingrulesu.dll"
+      Severity="2" RuleCategory="Casting">
+      <Parameter Name="Mold Wall Thickness to Nominal Wall Thickness Ratio" Type="2094" Status="1">
+        <Operator>7</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>2.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+      <Parameter Name="Mold Wall Thickness" Type="2095" Status="0">
+        <Operator>7</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>1.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Wall Thickness Variation" Status="0" LifeStatus="1"
+      Summary="Wall thickness variation should be within ± 25.0 % of nominal wall." Module="dfmcastingrulesvalidator"
+      RuleModule="Casting Rules" RuleModuleFileName="dfmcastingrulesu.dll" Severity="1" RuleCategory="Casting">
+      <Parameter Name="WT Variation" Type="2136" Status="1">
+        <Operator>7</Operator>
+        <ParameterType>1</ParameterType>
+        <Value>25.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Minimum Draft Angle" Status="0" LifeStatus="1"
+      Summary="Draft angle for core should be &gt;= 0.5 deg and draft angle for cavity should be &gt;= 5.0 deg."
+      Module="dfmcastingrulesvalidator" RuleModule="Casting Rules" RuleModuleFileName="dfmcastingrulesu.dll"
+      Severity="2" RuleCategory="Casting">
+      <Parameter Name="Minimum Draft Angle For Core" Type="2120" Status="1">
+        <Operator>7</Operator>
+        <ParameterType>2</ParameterType>
+        <Value>0.500000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+      <Parameter Name="Minimum Draft Angle For Cavity" Type="2121" Status="1">
+        <Operator>7</Operator>
+        <ParameterType>2</ParameterType>
+        <Value>5.000000</Value>
+        <Remarks></Remarks>
+      </Parameter>
+    </Rule>
+  </COMPLETERULE>
+
+  <COMPLETERULE>
+    <Rule Name="Undercut Detection" Status="0" LifeStatus="1"
+      Summary="Undercuts should be avoided for ease of manufacturing." Module="dfmcastingrulesvalidator"
+      RuleModule="Casting Rules" RuleModuleFileName="dfmcastingrulesu.dll" Severity="3" RuleCategory="Casting" />
+    </COMPLETERULE>
+
+    <COMPLETERULE>
+      <Rule Name="Minimum Radius at Base of Boss" Status="0" LifeStatus="1"
+        Summary="Ratio of radius at the base of boss to nominal wall thickness should be &gt;= 0.25. "
+        Module="dfmimrulesvalidator" RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll"
+        Severity="2" RuleCategory="Injection Molding">
+        <Parameter Name="Boss Base Radius to Nominal Wall Thickness" Type="2054" Status="1">
+          <Operator>7</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>0.250000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Minimum Radius" Type="2055" Status="0">
+          <Operator>7</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>0.400000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Rule>
+
+    </COMPLETERULE>
+
+    <COMPLETERULE>
+      <Rule Name="Minimum Radius at Tip of Boss" Status="0" LifeStatus="1"
+        Summary="Minimum radius at the tip of boss should be &gt;= 0.2 mm." Module="dfmimrulesvalidator"
+        RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll" Severity="2"
+        RuleCategory="Injection Molding">
+        <Parameter Name="Minimum Radius" Type="2066" Status="1">
+          <Operator>7</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>0.200000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Rule>
+    </COMPLETERULE>
+
+    <COMPLETERULE>
+      <Rule Name="Rib Reinforcement Check" Status="0" LifeStatus="1"
+        Summary="The ratio of the rib height to nominal wall thickness should be &lt;= 3.0.The ratio of the rib width to nominal wall thickness should be &lt;= 2.0."
+        Module="dfmimrulesvalidator" RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll"
+        Severity="3" RuleCategory="Injection Molding">
+        <Parameter Name="Rib Cross Sectional Area to Nominal Wall Thickness" Type="2077" Status="0">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>5.000000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Rib Height To Nominal Wall Thickness" Type="2102" Status="1">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>3.000000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Rib Width To Nominal Wall Thickness" Type="2103" Status="1">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>2.000000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Rule>
+    </COMPLETERULE>
+
+    <COMPLETERULE>
+      <Rule Name="Maximum Cutout Area" Status="0" LifeStatus="1"
+        Summary="Ratio of cutout area to nominal wall thickness should be &lt;= 10.0 mm." Module="dfmimrulesvalidator"
+        RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll" Severity="3"
+        RuleCategory="Injection Molding">
+        <Parameter Name="Maximum Cutout Area to Nominal Wall Thickness" Type="2081" Status="1">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>10.000000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Rule>
+    </COMPLETERULE>
+
+    <COMPLETERULE>
+      <Rule Name="Recommended Rib Parameters" Status="0" LifeStatus="1"
+        Summary="Ratio of rib thickness to nominal wall thickness should be &lt;= 0.4. Ratio of rib height to nominal wall thickness should be &lt;= 2.5."
+        Module="dfmimrulesvalidator" RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll"
+        Severity="2" RuleCategory="Injection Molding">
+        <Parameter Name="Rib Thickness to Nominal Wall Thickness" Type="2083" Status="1">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>0.400000</Value>
+          <Value>0.600000</Value>
+          <Value>1.000000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Rib Height to Nominal Wall Thickness" Type="2084" Status="1">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>2.500000</Value>
+          <Value>3.000000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Rib Width to Nominal Wall Thickness" Type="2085" Status="0">
+          <Operator>8</Operator>
+          <ParameterType>1</ParameterType>
+          <Value>0.000000</Value>
+          <Value>0.000000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Rule>
+    </COMPLETERULE>
+
+    <COMPLETERULE>
+      <Rule Name="Minimum Draft Angle" Status="0" LifeStatus="1"
+        Summary="Draft angle for core should be &gt;= 0.5 deg and draft angle for cavity should be &gt;= 5.0 deg."
+        Module="dfmimrulesvalidator" RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll"
+        Severity="2" RuleCategory="Injection Molding">
+        <Parameter Name="Minimum Draft Angle For Core" Type="2120" Status="1">
+          <Operator>7</Operator>
+          <ParameterType>2</ParameterType>
+          <Value>0.500000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+        <Parameter Name="Minimum Draft Angle For Cavity" Type="2121" Status="1">
+          <Operator>7</Operator>
+          <ParameterType>2</ParameterType>
+          <Value>5.000000</Value>
+          <Remarks></Remarks>
+        </Parameter>
+      </Rule>
+    </COMPLETERULE>
+    
+    <COMPLETERULE>
+      <Rule Name="Undercut Detection" Status="0" LifeStatus="1"
+        Summary="Undercuts should be avoided for ease of manufacturing." Module="dfmimrulesvalidator"
+        RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll" Severity="3"
+        RuleCategory="Injection Molding" />
+      <COMPLETERULE>
+        <Rule Name="Uniform Wall Thickness" Status="0" LifeStatus="1"
+          Summary="Minimum wall thickness should be &gt;= 2.0 mm. Maximum wall thickness should be &lt;3.0 mm. "
+          Module="dfmimrulesvalidator" RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll"
+          Severity="2" RuleCategory="Injection Molding">
+          <Parameter Name="Minimum Wall Thickness" Type="2045" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>2.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+          <Parameter Name="Maximum Wall Thickness" Type="2046" Status="1">
+            <Operator>8</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>3.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Mold Wall Thickness" Status="0" LifeStatus="1"
+          Summary="Ratio of mold wall thickness to nominal wall thickness of part should be &gt;= 2.0.  "
+          Module="dfmimrulesvalidator" RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll"
+          Severity="2" RuleCategory="Injection Molding">
+          <Parameter Name="Mold Wall Thickness to Nominal Wall Thickness Ratio" Type="2094" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>2.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+          <Parameter Name="Mold Wall Thickness" Type="2095" Status="0">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>1.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Wall Thickness Variation" Status="0" LifeStatus="1"
+          Summary="Wall thickness variation should be within ± 25.0 % of nominal wall." Module="dfmimrulesvalidator"
+          RuleModule="Injection Molding Rules" RuleModuleFileName="dfmimrulesu.dll" Severity="1"
+          RuleCategory="Injection Molding">
+          <Parameter Name="WT Variation" Type="2136" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>25.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Minimum Hole Diameter" Status="0" LifeStatus="1"
+          Summary="The ratio of the hole diameter to the sheet thickness should be &gt;= 1.0."
+          Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll" Severity="1"
+          RuleCategory="Sheet Metal">
+          <Parameter Name="Hole Diameter  to Thickness ratio" Type="159" Status="1">
+            <Operator>7</Operator>
+      Minimum Hole Diamete      <ParameterType>1</ParameterType>
+            <Value>1.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Countersink Hole Distance To Part Edge" Status="0" LifeStatus="1"
+          Summary="The ratio of the minimum distance between the edge of a countersink hole and the edge of the part, to the sheet thickness, should be &gt;= 4.0."
+          Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll" Severity="1"
+          RuleCategory="Sheet Metal">
+          <Parameter Name="Distance between countersink hole and edge to Thickness ratio" Type="139" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>4.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Countersink Hole Spacing" Status="0" LifeStatus="1"
+          Summary="The ratio of the minimum distance between the edges of  two countersink holes, to the sheet thickness, should be &gt;= 8.0."
+          Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll" Severity="1"
+          RuleCategory="Sheet Metal">
+          <Parameter Name="Distance between two countersink holes to Thickness ratio" Type="119" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>8.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Counterbore Hole Distance To Part Edge" Status="0" LifeStatus="1"
+          Summary="The ratio of the minimum distance between the edge of a counterbore hole and the edge of the part, to the sheet thickness, should be &gt;= 4.0."
+          Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll" Severity="1"
+          RuleCategory="Sheet Metal">
+          <Parameter Name="Distance between  countersink hole and edge  to Thickness ratio" Type="129" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>4.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Counterbore Hole Spacing" Status="0" LifeStatus="1"
+          Summary="The ratio of the minimum distance between the edges of  two counterbore holes, to the sheet thickness, should be &gt;= 8.0."
+          Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll" Severity="1"
+          RuleCategory="Sheet Metal">
+          <Parameter Name="Distance between two counterbore holes to Thickness ratio" Type="109" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>8.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Hole Distance To Bends" Status="0" LifeStatus="1"
+          Summary="The ratio of the minimum distance between the edge of a hole and a bend, to the sheet thickness, should be &gt;= 2.0."
+          Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll" Severity="1"
+          RuleCategory="Sheet Metal">
+          <Parameter Name="Distance To Thickness Ratio" Type="21024" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>2.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+          <Parameter Name="Distance To Thickness Ratio" Type="21024" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Tear Drop Hem" Status="0" LifeStatus="1"
+          Summary="The ratio of the tear drop hem radius to the sheet metal thickness should be &gt;= 0.5, the ratio of the return flange height to the sheet metal thickness should be &gt;= 4.0 , and the ratio of the hem opening to the sheet metal thickness should be &gt;= 0.25."
+          Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll" Severity="1"
+          RuleCategory="Sheet Metal">
+          <Parameter Name="Tear Drop Hem Diameter" Type="3019" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>0.500000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+          <Parameter Name="Tear Drop Flange Height" Type="3020" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>4.000000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+          <Parameter Name="Tear Drop Hem Opening" Type="3021" Status="1">
+            <Operator>7</Operator>
+            <ParameterType>1</ParameterType>
+            <Value>0.250000</Value>
+            <Remarks></Remarks>
+          </Parameter>
+        </Rule>
+      </COMPLETERULE>
+      <COMPLETERULE>
+        <Rule Name="Multiple Bends In Same Direction" Status="0" LifeStatus="1"
+          Summary="Multiple bends on same plane should occur in the same direction." Module="dfmsmrulesvalidator"
+          RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll" Severity="1" RuleCategory="Sheet Metal" />
+        <COMPLETERULE>
+          <Rule Name="Open Hem" Status="0" LifeStatus="1"
+            Summary="The ratio of the open hem radius to the sheet metal thickness should be &gt;= 0.5 and the ratio of the return flange height to the sheet metal thickness should be &gt;= 4.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="1" RuleCategory="Sheet Metal">
+            <Parameter Name="Open Hem Diameter" Type="125" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>0.500000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+            <Parameter Name="Open Hem Flange Height" Type="127" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>4.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Counterbore Hole To Bend Distance" Status="0" LifeStatus="1"
+            Summary="The ratio of the minimum distance between the edge of a counterbore hole and a bend, to the sheet thickness, should be &gt;= 4.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="1" RuleCategory="Sheet Metal">
+            <Parameter Name="Distance between Counterbore hole and a bend to Thickness ratio" Type="146" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>4.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Countersink Hole To Bend Distance" Status="0" LifeStatus="1"
+            Summary="The ratio of the minimum distance between the edge of a countersink hole and a bend, to the sheet thickness, should be &gt;= 4.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="1" RuleCategory="Sheet Metal">
+            <Parameter Name="Distance between Countersink hole and a bend to Thickness ratio" Type="151" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>4.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Rolled Hem To Hole Edge Distance" Status="0" LifeStatus="1"
+            Summary="The ratio of the minimum distance between the rolled hem and the edge of a hole, to the sheet thickness, should be &gt;= 1.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="1" RuleCategory="Sheet Metal">
+            <Parameter Name="Distance between a rolled hem and a hole to Thickness ratio" Type="157" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>0</ParameterType>
+              <Value>1.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Rolled Hem" Status="0" LifeStatus="1"
+            Summary="The ratio of the rolled hem radius to material thickness, should be &gt;= 2.0, and the ratio of opening to material thickness, should be &gt;= 1.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="1" RuleCategory="Sheet Metal">
+            <Parameter Name="Rolled Hem Radius To Thickness Ratio" Type="161" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>2.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+            <Parameter Name="Rolled Hem Opening To Thickness Ratio" Type="162" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>1.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Minimum Bend Radius" Status="0" LifeStatus="1"
+            Summary="Minimum bend radius should be as per recommended value based on material."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="4" RuleCategory="Sheet Metal">
+            <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>2.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+            <Constraint Type="Material" Value="Aluminium Alloys" Status="1">
+              <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>6.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Constraint>
+            <Constraint Type="Material" Value="Beryllium Copper" Status="1">
+              <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>4.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Constraint>
+            <Constraint Type="Material" Value="Low-Leaded Brass" Status="1">
+              <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>2.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Constraint>
+            <Constraint Type="Material" Value="Magnesium" Status="1">
+              <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>13.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Constraint>
+            <Constraint Type="Material" Value="Austentic Stainless" Status="1">
+              <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>6.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Constraint>
+            <Constraint Type="Material" Value="Low-Carbon,Low-Alloy" Status="1">
+              <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>4.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Constraint>
+            <Constraint Type="Material" Value="Titanium" Status="1">
+              <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>3.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Constraint>
+            <Constraint Type="Material" Value="Titanium Alloys" Status="1">
+              <Parameter Name="Bend radius to Thickness ratio" Type="181" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>4.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Constraint>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Minimum Distance Between Cutouts" Status="0" LifeStatus="1"
+            Summary="The ratio of the minimum distance between cutouts in a sheet metal part to the thickness should be &gt;= 2.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="2" RuleCategory="Sheet Metal">
+            <Parameter Name="Distance between cutouts to Thickness ratio" Type="186" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>2.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Minimum Width Of a Slot" Status="0" LifeStatus="1"
+            Summary="The ratio of width of a slot to the sheet thickness should be &gt;= 2.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="2" RuleCategory="Sheet Metal">
+            <Parameter Name="Slot Width to Sheet Thickness Ratio" Type="207" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>2.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+            <Parameter Name="Slot Length to Slot Width Ratio" Type="208" Status="0">
+              <Operator>8</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>15.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Cutout Distance To Part Edge" Status="0" LifeStatus="1"
+            Summary="The ratio of the minimum distance from a cutout to edge of part to the sheet thickness should be &gt;= 2.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="2" RuleCategory="Sheet Metal">
+            <Parameter Name="Distance between cutout and part edge to Thickness ratio" Type="198" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>2.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+            <Parameter Name="Distance between cutout and part edge" Type="167" Status="0">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Cutout To Bend Distance" Status="0" LifeStatus="1"
+            Summary="The ratio of the minimum distance between cutout to bend in a sheet metal part should be &gt;= 2.0."
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="2" RuleCategory="Sheet Metal">
+            <Parameter Name="Distance between cutout and bend to Thickness ratio" Type="203" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>2.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Minimum Distance From Edge Of Part To a Parallel Slot" Status="0" LifeStatus="1"
+            Summary="The ratio of the minimum distance from an edge of a part to a parallel slot and the slot length should be &gt;= 0.2"
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="2" RuleCategory="Sheet Metal">
+            <Parameter Name="The Ratio Of Edge To Parallel Slot Distance and Slot Length" Type="189" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>0.200000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Minimum Distance From Bend To a Parallel Slot" Status="0" LifeStatus="1"
+            Summary="The ratio of the minimum distance from a bend to a parallel slot and the sheet thickness should be &gt;= 4.0"
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="2" RuleCategory="Sheet Metal">
+            <Parameter Name="The Ratio Of Bend To Parallel Slot Distance and Sheet Thickness" Type="212" Status="1">
+              <Operator>7</Operator>
+              <ParameterType>1</ParameterType>
+              <Value>4.000000</Value>
+              <Remarks></Remarks>
+            </Parameter>
+          </Rule>
+        </COMPLETERULE>
+        <COMPLETERULE>
+          <Rule Name="Knife Edge" Status="0" LifeStatus="1" Summary="Sheet metal flanges should not have knife edge"
+            Module="dfmsmrulesvalidator" RuleModule="Sheet metal rules" RuleModuleFileName="dfmsmrulesu.dll"
+            Severity="2" RuleCategory="Sheet Metal" />
+          <COMPLETERULE>
+            <Rule Name="Hole Alignment" Status="0" LifeStatus="1"
+              Summary="Check for alignment of holes, Blocked hole and Unused holes. Gap between the parts should be &lt;= 0.5 mm."
+              Module="dfmassemblyrulesvalidator" RuleModule="Assembly Rules" RuleModuleFileName="dfmassemblyrulesu.dll"
+              Severity="1" RuleCategory="Assembly" SelectedDatabase="dfmsqlitedatabaseu" DBCategory="DrillSize">
+              <Parameter Name="Misaligned Holes" Type="7800" Status="1">
+                <Operator>8</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>0.500000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Blocked Holes" Type="7092" Status="1">
+                <Operator>8</Operator>
+                <ParameterType>1</ParameterType>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Unused Holes" Type="7094" Status="0">
+                <Operator>8</Operator>
+                <ParameterType>1</ParameterType>
+                <Remarks></Remarks>
+              </Parameter>
+            </Rule>
+          </COMPLETERULE>
+          <COMPLETERULE>
+            <Rule Name="Minimum Clearance Between Components" Status="0" LifeStatus="1"
+              Summary="Minimum clearance between components should be &gt;= 0.1 mm. " Module="dfmassemblyrulesvalidator"
+              RuleModule="Assembly Rules" RuleModuleFileName="dfmassemblyrulesu.dll" Severity="1"
+              RuleCategory="Assembly">
+              <Parameter Name="Default Clearance" Type="2062" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>1.000000</Value>
+                <Value>0.100000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Pairs clearance check" Type="2049" Status="1">
+                <Operator>3</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>0.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Pairs Clearance" Type="2048" Status="1">
+                <Operator>3</Operator>
+                <ParameterType>24</ParameterType>
+                <Value Attribute1="" Attribute2="" Attribute3="" Attribute4="" />
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Body-Body Clearance" Type="2063" Status="1">
+                <Operator>7</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>1.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Minimum Clearance Ignore Mating" Type="6072" Status="1">
+                <Operator>3</Operator>
+                <ParameterType>22</ParameterType>
+                <Value>0</Value>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Minimum Clearance Quilt Check" Type="6073" Status="1">
+                <Operator>3</Operator>
+                <ParameterType>22</ParameterType>
+                <Value>1</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Rule>
+          </COMPLETERULE>
+          <COMPLETERULE>
+            <Rule Name="Interference Detection" Status="0" LifeStatus="1"
+              Summary="To achieve desired functionality, interference must be avoided in assembly."
+              Module="dfmassemblyrulesvalidator" RuleModule="Assembly Rules" RuleModuleFileName="dfmassemblyrulesu.dll"
+              Severity="1" RuleCategory="Assembly">
+              <Parameter Name="Interference detection check" Type="6067" Status="1">
+                <Operator>3</Operator>
+                <ParameterType>22</ParameterType>
+                <Value>1</Value>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Interference detection quilt" Type="6069" Status="1">
+                <Operator>3</Operator>
+                <ParameterType>22</ParameterType>
+                <Value>1</Value>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Check Each Part Under 'Component1' With All Parts Under 'Component2'" Type="8073"
+                Status="1">
+                <Operator>3</Operator>
+                <ParameterType>22</ParameterType>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Interference detection cosmetic thread" Type="6070" Status="1">
+                <Operator>3</Operator>
+                <ParameterType>22</ParameterType>
+                <Value>0</Value>
+                <Remarks></Remarks>
+              </Parameter>
+              <Parameter Name="Interference Detection" Type="6068" Status="1">
+                <Operator>3</Operator>
+                <ParameterType>24</ParameterType>
+                <Value Attribute1="" Attribute2="" Attribute3="" Attribute4="" />
+                <Remarks></Remarks>
+              </Parameter>
+            </Rule>
+          </COMPLETERULE>
+          <COMPLETERULE>
+            <Rule Name="Deep Holes" Status="0" LifeStatus="1"
+              Summary="The ratio of the depth of a hole to its diameter should be &lt;= 8.0."
+              Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll" Severity="1"
+              RuleCategory="Drilling" SelectedDatabase="dfmsqlitedatabaseu" DBCategory="DrillSize">
+              <Parameter Name="Hole Depth Dia Ratio" Type="10001" Status="1">
+                <Operator>8</Operator>
+                <ParameterType>1</ParameterType>
+                <Value>8.000000</Value>
+                <Remarks></Remarks>
+              </Parameter>
+            </Rule>
+          </COMPLETERULE>
+          <COMPLETERULE>
+            <Rule Name="Entry / Exit Surface For Hole" Status="0" LifeStatus="1"
+              Summary="Holes should enter and exit surfaces that are perpendicular to the centerline of the hole."
+              Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll" Severity="1"
+              RuleCategory="Drilling" />
+            <COMPLETERULE>
+              <Rule Name="Flat Bottom Holes" Status="0" LifeStatus="1"
+                Summary="It is recommended to use conical bottom hole, when hole is manufactured with drilling. It is recommended to use flat bottom hole, when hole is manufactured with milling."
+                Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll"
+                Severity="3" RuleCategory="Drilling" SelectedDatabase="dfmsqlitedatabaseu" DBCategory="DrillSize" />
+              <COMPLETERULE>
+                <Rule Name="Deep Radiused Corners" Status="0" LifeStatus="1"
+                  Summary="The ratio of the depth of an internal corner of milled region to its radius should be &lt;= 16.0."
+                  Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll"
+                  Severity="2" RuleCategory="Milling">
+                  <Parameter Name="Mill Tool Length Diameter Ratio" Type="10003" Status="1">
+                    <Operator>8</Operator>
+                    <ParameterType>1</ParameterType>
+                    <Value>16.000000</Value>
+                    <Remarks></Remarks>
+                  </Parameter>
+                </Rule>
+              </COMPLETERULE>
+              <COMPLETERULE>
+                <Rule Name="Sharp Internal Corners" Status="0" LifeStatus="1"
+                  Summary="Milled pockets/slots should not have sharp internal corners." Module="dfmmillrulesvalidator"
+                  RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll" Severity="3" RuleCategory="Milling" />
+                <COMPLETERULE>
+                  <Rule Name="Fillets On Top Edges" Status="0" LifeStatus="1"
+                    Summary="Edges on the tops of pockets, bosses, and slots should be chamfered and not filleted."
+                    Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll"
+                    Severity="4" RuleCategory="Milling">
+                    <Parameter Name="" Type="10153" Status="1">
+                      <Operator>6</Operator>
+                      <ParameterType>1</ParameterType>
+                      <Remarks></Remarks>
+                    </Parameter>
+                  </Rule>
+                </COMPLETERULE>
+                <COMPLETERULE>
+                  <Rule Name="Pockets With Bottom Chamfers" Status="0" LifeStatus="1"
+                    Summary="Milled pockets and bosses should not have a chamfer between the side walls and its base."
+                    Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll"
+                    Severity="3" RuleCategory="Milling" />
+                  <COMPLETERULE>
+                    <Rule Name="Non Uniform Draft Features" Status="0" LifeStatus="1"
+                      Summary="All walls of tapered pockets, bosses and slots should be defined with a constant taper angle."
+                      Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll"
+                      Severity="3" RuleCategory="Milling" />
+                    <COMPLETERULE>
+                      <Rule Name="Deep - Narrow Slots" Status="0" LifeStatus="1"
+                        Summary="The ratio of cross section area to the depth of a milled pocket should be &gt;= 0.8 mm."
+                        Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll"
+                        Severity="4" RuleCategory="Milling">
+                        <Parameter Name="Deep - Narrow Slots" Type="1025" Status="1">
+                          <Operator>7</Operator>
+                          <ParameterType>1</ParameterType>
+                          <Value>0.800000</Value>
+                          <Remarks></Remarks>
+                        </Parameter>
+                      </Rule>
+                    </COMPLETERULE>
+                    <COMPLETERULE>
+                      <Rule Name="Partial Holes" Status="0" LifeStatus="1"
+                        Summary="When a hole intersects with the side of a feature, &gt;= 75.0 percent of the area of the hole should be within material."
+                        Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll"
+                        Severity="2" RuleCategory="Drilling">
+                        <Parameter Name="Partial Hole Material Area" Type="10002" Status="1">
+                          <Operator>7</Operator>
+                          <ParameterType>1</ParameterType>
+                          <Value>75.000000</Value>
+                          <Remarks></Remarks>
+                        </Parameter>
+                      </Rule>
+                    </COMPLETERULE>
+                    <COMPLETERULE>
+                      <Rule Name="Standard Hole Sizes" Status="0" LifeStatus="1"
+                        Summary="Holes should conform to standard hole diameters." Module="dfmmillrulesvalidator"
+                        RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll" Severity="1"
+                        RuleCategory="Drilling" SelectedDatabase="dfmsqlitedatabaseu" DBCategory="DrillSize"
+                        StdHoleFilterType="Metric Unit" StdHoleUnit="DocumentUnit" StdHoleTolerance=""
+                        StdHoleToleranceUnit="" />
+                      <COMPLETERULE>
+                        <Rule Name="Holes Intersecting Cavities" Status="0" LifeStatus="1"
+                          Summary="Holes should not intersect a cavity. If an intersection is unavoidable, at a minimum, the centerline of the hole should be outside the cavity."
+                          Module="dfmmillrulesvalidator" RuleModule="Mill Rules" RuleModuleFileName="dfmmillrulesu.dll"
+                          Severity="1" RuleCategory="Drilling" SelectedDatabase="dfmsqlitedatabaseu"
+                          DBCategory="DrillSize" />
+                        <COMPLETERULE>
+                          <Rule Name="Tool Accessibility" Status="0" LifeStatus="1"
+                            Summary="Features should be accessible to the cutting tool in the preferred machining orientation."
+                            Module="dfmmillrulesvalidator" RuleModule="Mill Rules"
+                            RuleModuleFileName="dfmmillrulesu.dll" Severity="1" RuleCategory="Milling" />
+                          <COMPLETERULE>
+                            <Rule Name="Narrow Regions In Pockets" Status="0" LifeStatus="1"
+                              Summary="To minimize the use of small tools, distance between features / model faces of milled regions should be &gt;= 3.0 mm and the ratio of depth of milling region to  its width should be &lt;= 10.0."
+                              Module="dfmmillrulesvalidator" RuleModule="Mill Rules"
+                              RuleModuleFileName="dfmmillrulesu.dll" Severity="2" RuleCategory="Milling">
+                              <Parameter Name="Select the drill diameter to delete" Type="1066" Status="1">
+                                <Operator>7</Operator>
+                                <ParameterType>1</ParameterType>
+                                <Value>3.000000</Value>
+                                <Remarks></Remarks>
+                              </Parameter>
+                              <Parameter Name="Failed to delete drill diameter from Database" Type="1067" Status="1">
+                                <Operator>8</Operator>
+                                <ParameterType>1</ParameterType>
+                                <Value>10.000000</Value>
+                                <Remarks></Remarks>
+                              </Parameter>
+                            </Rule>
+                          </COMPLETERULE>
+</DFMExpress>

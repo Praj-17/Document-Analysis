@@ -1,7 +1,0 @@
-<COMPLETERULE><Rule LifeStatus="1" Module="dfmturnrulesvalidator" Name="Minimum Internal Corner Radius" RuleCategory="Turning" RuleModule="Turn Rules" RuleModuleFileName="dfmturnrulesu.dll" SelectedDatabase="" Severity="2" Status="0" Summary="Minimum corner radius on turned profile should be &gt;= 0.5 mm.">
-<DataBases/>
-<Parameter Name="Turn Corner Radius" Status="1" Type="1038">
-<Operator>7</Operator>
-<ParameterType>1</ParameterType>
-<Value>0.500000</Value><Remarks/></Parameter>
-</Rule> </COMPLETERULE>
